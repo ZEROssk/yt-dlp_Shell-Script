@@ -18,7 +18,7 @@ do
 		yt-dlp -o "%(title)s.%(ext)s" -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" --embed-thumbnail "$URL"
 		break
 	else
-		echo "Please Type mp3 or mp4 or all."
+		echo "Please Type [mp3:mp4:all]"
 	fi
 done
 
